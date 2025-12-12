@@ -1,0 +1,6 @@
+def format(num, rep):
+    return format(num, rep)
+
+result = format(145, 'o')
+print(result)
+#we have converted dicimal number 145 to octal number(o) i.e 221
