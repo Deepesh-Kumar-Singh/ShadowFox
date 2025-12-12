@@ -1,0 +1,29 @@
+list=["superman","batman","wonder woman","flash","aquaman","green lantern"]
+n=len(list)
+print(f"number of superheros are:{n}")
+# adding members
+list.append("batgirl")
+list.append("nightwing")
+print(f"new list:{list}")
+#3
+list.pop(2)
+list.insert(0,"wonder women")
+print(f"new list:{list}")
+#4
+list.pop(1)
+list.insert(3,"superman")
+print(f"new list:{list}")
+#5
+list.clear()
+list.append("cyborg")
+list.append("shazam")
+list.append("hawkgirl")
+list.append("martine")
+list.append("manhunter")
+list.append("green arrow")
+print(f"new list:{list}")
+#6
+list.sort()
+print(f"new list:{list}")
+#Bonus
+print(f"new leader will be:{list[0]}")
