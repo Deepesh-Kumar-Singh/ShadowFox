@@ -1,0 +1,27 @@
+import random
+c1=0
+c2=0
+c3=0
+c4=0
+c5=0
+c6=0
+for i in range(0,20):
+    r=random.randint(1,6)
+    if r==1:
+        c1+=1
+    if r==2:
+        c2+=1
+    if r==3:
+        c3+=1
+    if r==4:
+        c4+=1
+    if r==5:
+        c5+=1
+    if r==6:
+        c6+=1
+print (f" 1 occured {c1} times")
+print (f" 2 occured {c2} times")
+print (f" 3 occured {c3} times")
+print (f" 4 occured {c4} times")
+print (f" 5 occured {c5} times")
+print (f" 6 occured {c6} times")
