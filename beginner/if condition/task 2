@@ -1,0 +1,10 @@
+city=input("enter a city name")
+australia=["Sydney","Melbourne","Brisbane","Perth"]
+uae=["Dubai","Abu Dhabi","Sharjah","Ajman"]
+india=["Mumbai","Bangalore","Chennai","Delhi"]
+if city in australia:
+    print(f"{city} is in Australia")
+if city in uae:
+    print(f"{city} is in UAE")
+if city in india:
+    print(f"{city} is in India")
