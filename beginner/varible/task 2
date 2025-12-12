@@ -1,0 +1,2 @@
+for=4
+#it will create an error as for is a keyword and a keyword can not be used as variabel 
