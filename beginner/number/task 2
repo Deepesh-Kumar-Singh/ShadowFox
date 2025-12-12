@@ -1,0 +1,7 @@
+r=84
+pi=3.14
+area=pi*r*r
+print(f"Area ={area}")
+water=1.4
+pond_water=int(area*water)
+print(f"water in the pond ={pond_water}litre")
